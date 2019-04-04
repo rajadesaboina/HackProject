@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteRegister">
+              <span class="suite-name border-passed">SuiteRegister</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteRegister">
+                    <span>D:\sampleHackProj\Register.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteRegister">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteRegister">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteRegister">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteRegister">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteRegister">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteRegister">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteRegister" class="hide-methods passed suite-SuiteRegister"> (hide)</a> <!-- hide-methods passed suite-SuiteRegister -->
+                      <a href="#" panel-name="suite-SuiteRegister" class="show-methods passed suite-SuiteRegister"> (show)</a> <!-- show-methods passed suite-SuiteRegister -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteRegister">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyErrorMessageForInvalidEmailId_102">s_VerifyErrorMessageForInvalidEmailId_102</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyErrorMessageForNoEmailId_103">s_VerifyErrorMessageForNoEmailId_103</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyErrorMessageForNoPassword_104">s_VerifyErrorMessageForNoPassword_104</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyErrorMessageWhenCurrentPasswordFieldIsEmpty_My_Personal_Info_101">s_VerifyErrorMessageWhenCurrentPasswordFieldIsEmpty_My_Personal_Info_101</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyErrorMessageWhenMandatoryFieldsAreEmpty_Register_101">s_VerifyErrorMessageWhenMandatoryFieldsAreEmpty_Register_101</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyErrorWhenRegisteringWithSameEmailAddress_Register_102">s_VerifyErrorWhenRegisteringWithSameEmailAddress_Register_102</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyFieldsPresentOnSignInPage_101">s_VerifyFieldsPresentOnSignInPage_101</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyItemsAddedInCartIsDisplayedOnShoppingCartSummaryPage_CartSummary_101">s_VerifyItemsAddedInCartIsDisplayedOnShoppingCartSummaryPage_CartSummary_101</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyUserIsAbleToLoginSuccessfully_105">s_VerifyUserIsAbleToLoginSuccessfully_105</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyUserIsAbleToPlaceOrderSuccessfully_E2E_101">s_VerifyUserIsAbleToPlaceOrderSuccessfully_E2E_101</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyUserIsAbleToRegisterSuccessfully_Register_103">s_VerifyUserIsAbleToRegisterSuccessfully_Register_103</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102">s_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteRegister" title="com.shopping.TestCases.FunctionalTestCases" hash-for-method="s_VerifyUserIsAbleToSuccessfullyEditDOB_My_Personal_Info_102">s_VerifyUserIsAbleToSuccessfullyEditDOB_My_Personal_Info_102</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteRegister -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteRegister" class="panel SuiteRegister">
+          <div class="suite-SuiteRegister-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.shopping.TestCases.FunctionalTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyErrorMessageForInvalidEmailId_102">
+                  </a> <!-- s_VerifyErrorMessageForInvalidEmailId_102 -->
+                  <span class="method-name">s_VerifyErrorMessageForInvalidEmailId_102</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyErrorMessageForNoEmailId_103">
+                  </a> <!-- s_VerifyErrorMessageForNoEmailId_103 -->
+                  <span class="method-name">s_VerifyErrorMessageForNoEmailId_103</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyErrorMessageForNoPassword_104">
+                  </a> <!-- s_VerifyErrorMessageForNoPassword_104 -->
+                  <span class="method-name">s_VerifyErrorMessageForNoPassword_104</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyErrorMessageWhenCurrentPasswordFieldIsEmpty_My_Personal_Info_101">
+                  </a> <!-- s_VerifyErrorMessageWhenCurrentPasswordFieldIsEmpty_My_Personal_Info_101 -->
+                  <span class="method-name">s_VerifyErrorMessageWhenCurrentPasswordFieldIsEmpty_My_Personal_Info_101</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyErrorMessageWhenMandatoryFieldsAreEmpty_Register_101">
+                  </a> <!-- s_VerifyErrorMessageWhenMandatoryFieldsAreEmpty_Register_101 -->
+                  <span class="method-name">s_VerifyErrorMessageWhenMandatoryFieldsAreEmpty_Register_101</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyErrorWhenRegisteringWithSameEmailAddress_Register_102">
+                  </a> <!-- s_VerifyErrorWhenRegisteringWithSameEmailAddress_Register_102 -->
+                  <span class="method-name">s_VerifyErrorWhenRegisteringWithSameEmailAddress_Register_102</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyFieldsPresentOnSignInPage_101">
+                  </a> <!-- s_VerifyFieldsPresentOnSignInPage_101 -->
+                  <span class="method-name">s_VerifyFieldsPresentOnSignInPage_101</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyItemsAddedInCartIsDisplayedOnShoppingCartSummaryPage_CartSummary_101">
+                  </a> <!-- s_VerifyItemsAddedInCartIsDisplayedOnShoppingCartSummaryPage_CartSummary_101 -->
+                  <span class="method-name">s_VerifyItemsAddedInCartIsDisplayedOnShoppingCartSummaryPage_CartSummary_101</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyUserIsAbleToLoginSuccessfully_105">
+                  </a> <!-- s_VerifyUserIsAbleToLoginSuccessfully_105 -->
+                  <span class="method-name">s_VerifyUserIsAbleToLoginSuccessfully_105</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyUserIsAbleToPlaceOrderSuccessfully_E2E_101">
+                  </a> <!-- s_VerifyUserIsAbleToPlaceOrderSuccessfully_E2E_101 -->
+                  <span class="method-name">s_VerifyUserIsAbleToPlaceOrderSuccessfully_E2E_101</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyUserIsAbleToRegisterSuccessfully_Register_103">
+                  </a> <!-- s_VerifyUserIsAbleToRegisterSuccessfully_Register_103 -->
+                  <span class="method-name">s_VerifyUserIsAbleToRegisterSuccessfully_Register_103</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102">
+                  </a> <!-- s_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102 -->
+                  <span class="method-name">s_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="s_VerifyUserIsAbleToSuccessfullyEditDOB_My_Personal_Info_102">
+                  </a> <!-- s_VerifyUserIsAbleToSuccessfullyEditDOB_My_Personal_Info_102 -->
+                  <span class="method-name">s_VerifyUserIsAbleToSuccessfullyEditDOB_My_Personal_Info_102</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteRegister-class-passed -->
+        </div> <!-- panel SuiteRegister -->
+        <div panel-name="test-xml-SuiteRegister" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\sampleHackProj\Register.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SuiteRegister&quot;&gt;
+  &lt;test thread-count=&quot;9&quot; name=&quot;Register&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.shopping.TestCases.FunctionalTestCases&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;s_VerifyFieldsPresentOnSignInPage_101&quot;/&gt;
+          &lt;include name=&quot;s_VerifyErrorMessageForInvalidEmailId_102&quot;/&gt;
+          &lt;include name=&quot;s_VerifyErrorMessageForNoEmailId_103&quot;/&gt;
+          &lt;include name=&quot;s_VerifyErrorMessageForNoPassword_104&quot;/&gt;
+          &lt;include name=&quot;s_VerifyUserIsAbleToLoginSuccessfully_105&quot;/&gt;
+          &lt;include name=&quot;s_VerifyErrorMessageWhenCurrentPasswordFieldIsEmpty_My_Personal_Info_101&quot;/&gt;
+          &lt;include name=&quot;s_VerifyUserIsAbleToSuccessfullyEditDOB_My_Personal_Info_102&quot;/&gt;
+          &lt;include name=&quot;s_VerifyErrorMessageWhenMandatoryFieldsAreEmpty_Register_101&quot;/&gt;
+          &lt;include name=&quot;s_VerifyErrorWhenRegisteringWithSameEmailAddress_Register_102&quot;/&gt;
+          &lt;include name=&quot;s_VerifyUserIsAbleToRegisterSuccessfully_Register_103&quot;/&gt;
+          &lt;include name=&quot;s_VerifyUserIsAbleToPlaceOrderSuccessfully_E2E_101&quot;/&gt;
+          &lt;include name=&quot;s_VerifyItemsAddedInCartIsDisplayedOnShoppingCartSummaryPage_CartSummary_101&quot;/&gt;
+          &lt;include name=&quot;s_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.shopping.TestCases.FunctionalTestCases --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Register --&gt;
+&lt;/suite&gt; &lt;!-- SuiteRegister --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteRegister" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteRegister</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Register (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteRegister" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteRegister</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteRegister" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteRegister</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteRegister');
+function tableData_SuiteRegister() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 's_VerifyUserIsAbleToPlaceOrderSuccessfully_E2E_101')
+data.setCell(0, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(0, 3, 40472);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 's_VerifyItemsAddedInCartIsDisplayedOnShoppingCartSummaryPage_CartSummary_101')
+data.setCell(1, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(1, 3, 26992);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 's_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102')
+data.setCell(2, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(2, 3, 23556);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 's_VerifyUserIsAbleToSuccessfullyEditDOB_My_Personal_Info_102')
+data.setCell(3, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(3, 3, 23404);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 's_VerifyErrorMessageWhenMandatoryFieldsAreEmpty_Register_101')
+data.setCell(4, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(4, 3, 19477);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 's_VerifyErrorMessageWhenCurrentPasswordFieldIsEmpty_My_Personal_Info_101')
+data.setCell(5, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(5, 3, 17462);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 's_VerifyUserIsAbleToRegisterSuccessfully_Register_103')
+data.setCell(6, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(6, 3, 14321);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 's_VerifyErrorWhenRegisteringWithSameEmailAddress_Register_102')
+data.setCell(7, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(7, 3, 12234);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 's_VerifyErrorMessageForNoPassword_104')
+data.setCell(8, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(8, 3, 11459);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 's_VerifyUserIsAbleToLoginSuccessfully_105')
+data.setCell(9, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(9, 3, 9284);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 's_VerifyErrorMessageForNoEmailId_103')
+data.setCell(10, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(10, 3, 8998);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 's_VerifyErrorMessageForInvalidEmailId_102')
+data.setCell(11, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(11, 3, 8019);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 's_VerifyFieldsPresentOnSignInPage_101')
+data.setCell(12, 2, 'com.shopping.TestCases.FunctionalTestCases')
+data.setCell(12, 3, 5948);
+window.suiteTableData['SuiteRegister']= { tableData: data, tableDiv: 'times-div-SuiteRegister'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-SuiteRegister">
+              </div> <!-- times-div-SuiteRegister -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteRegister" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteRegister</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteRegister" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteRegister" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.shopping.TestCases.FunctionalTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyFieldsPresentOnSignInPage_101</span>
+                <span class="method-start">13597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">19549 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">20378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyErrorMessageForInvalidEmailId_102</span>
+                <span class="method-start">33866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">41889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">43075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyErrorMessageForNoEmailId_103</span>
+                <span class="method-start">55804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">64810 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">67172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyErrorMessageForNoPassword_104</span>
+                <span class="method-start">88532 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">99993 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">105514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyUserIsAbleToLoginSuccessfully_105</span>
+                <span class="method-start">120679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">129964 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">131217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyErrorMessageWhenCurrentPasswordFieldIsEmpty_My_Personal_Info_101</span>
+                <span class="method-start">146989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">164453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">166181 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyUserIsAbleToSuccessfullyEditDOB_My_Personal_Info_102</span>
+                <span class="method-start">179676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">203083 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">204441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyErrorMessageWhenMandatoryFieldsAreEmpty_Register_101</span>
+                <span class="method-start">218831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">238310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">239918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyErrorWhenRegisteringWithSameEmailAddress_Register_102</span>
+                <span class="method-start">254151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">266386 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">267463 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyUserIsAbleToRegisterSuccessfully_Register_103</span>
+                <span class="method-start">280906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">295228 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">296859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyUserIsAbleToPlaceOrderSuccessfully_E2E_101</span>
+                <span class="method-start">310500 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">350973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">351886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyItemsAddedInCartIsDisplayedOnShoppingCartSummaryPage_CartSummary_101</span>
+                <span class="method-start">364098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">391092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">392209 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">s_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102</span>
+                <span class="method-start">403998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">427556 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

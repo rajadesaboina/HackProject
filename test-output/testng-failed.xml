@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteRegister]">
+  <test thread-count="5" name="Register(failed)">
+    <classes>
+      <class name="com.shopping.TestCases.FunctionalTestCases">
+        <methods>
+          <include name="endTest"/>
+          <include name="startBrowser"/>
+          <include name="s_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102"/>
+        </methods>
+      </class> <!-- com.shopping.TestCases.FunctionalTestCases -->
+    </classes>
+  </test> <!-- Register(failed) -->
+</suite> <!-- Failed suite [SuiteRegister] -->

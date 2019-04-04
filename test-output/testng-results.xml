@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteRegister" duration-ms="428448" started-at="2019-01-02T07:18:25Z" finished-at="2019-01-02T07:25:33Z">
+    <groups>
+    </groups>
+    <test name="Register" duration-ms="428448" started-at="2019-01-02T07:18:25Z" finished-at="2019-01-02T07:25:33Z">
+      <class name="com.shopping.TestCases.FunctionalTestCases">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="13597" started-at="2019-01-02T07:18:25Z" finished-at="2019-01-02T07:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyFieldsPresentOnSignInPage_101()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyFieldsPresentOnSignInPage_101" duration-ms="5948" started-at="2019-01-02T07:18:38Z" finished-at="2019-01-02T07:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyFieldsPresentOnSignInPage_101 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="826" started-at="2019-01-02T07:18:44Z" finished-at="2019-01-02T07:18:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="13488" started-at="2019-01-02T07:18:45Z" finished-at="2019-01-02T07:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyErrorMessageForInvalidEmailId_102()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyErrorMessageForInvalidEmailId_102" duration-ms="8019" started-at="2019-01-02T07:18:58Z" finished-at="2019-01-02T07:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyErrorMessageForInvalidEmailId_102 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="1185" started-at="2019-01-02T07:19:06Z" finished-at="2019-01-02T07:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="12728" started-at="2019-01-02T07:19:08Z" finished-at="2019-01-02T07:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyErrorMessageForNoEmailId_103()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyErrorMessageForNoEmailId_103" duration-ms="8998" started-at="2019-01-02T07:19:20Z" finished-at="2019-01-02T07:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyErrorMessageForNoEmailId_103 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="2361" started-at="2019-01-02T07:19:29Z" finished-at="2019-01-02T07:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="21360" started-at="2019-01-02T07:19:32Z" finished-at="2019-01-02T07:19:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyErrorMessageForNoPassword_104()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyErrorMessageForNoPassword_104" duration-ms="11459" started-at="2019-01-02T07:19:53Z" finished-at="2019-01-02T07:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyErrorMessageForNoPassword_104 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="5519" started-at="2019-01-02T07:20:05Z" finished-at="2019-01-02T07:20:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="15165" started-at="2019-01-02T07:20:10Z" finished-at="2019-01-02T07:20:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyUserIsAbleToLoginSuccessfully_105()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyUserIsAbleToLoginSuccessfully_105" duration-ms="9284" started-at="2019-01-02T07:20:25Z" finished-at="2019-01-02T07:20:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyUserIsAbleToLoginSuccessfully_105 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="1252" started-at="2019-01-02T07:20:35Z" finished-at="2019-01-02T07:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="15772" started-at="2019-01-02T07:20:36Z" finished-at="2019-01-02T07:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyErrorMessageWhenCurrentPasswordFieldIsEmpty_My_Personal_Info_101()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyErrorMessageWhenCurrentPasswordFieldIsEmpty_My_Personal_Info_101" duration-ms="17462" started-at="2019-01-02T07:20:52Z" finished-at="2019-01-02T07:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyErrorMessageWhenCurrentPasswordFieldIsEmpty_My_Personal_Info_101 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="1727" started-at="2019-01-02T07:21:09Z" finished-at="2019-01-02T07:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="13495" started-at="2019-01-02T07:21:11Z" finished-at="2019-01-02T07:21:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyUserIsAbleToSuccessfullyEditDOB_My_Personal_Info_102()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyUserIsAbleToSuccessfullyEditDOB_My_Personal_Info_102" duration-ms="23404" started-at="2019-01-02T07:21:24Z" finished-at="2019-01-02T07:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyUserIsAbleToSuccessfullyEditDOB_My_Personal_Info_102 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="1358" started-at="2019-01-02T07:21:48Z" finished-at="2019-01-02T07:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="14390" started-at="2019-01-02T07:21:49Z" finished-at="2019-01-02T07:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyErrorMessageWhenMandatoryFieldsAreEmpty_Register_101()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyErrorMessageWhenMandatoryFieldsAreEmpty_Register_101" duration-ms="19477" started-at="2019-01-02T07:22:03Z" finished-at="2019-01-02T07:22:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyErrorMessageWhenMandatoryFieldsAreEmpty_Register_101 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="1607" started-at="2019-01-02T07:22:23Z" finished-at="2019-01-02T07:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="14233" started-at="2019-01-02T07:22:24Z" finished-at="2019-01-02T07:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyErrorWhenRegisteringWithSameEmailAddress_Register_102()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyErrorWhenRegisteringWithSameEmailAddress_Register_102" duration-ms="12234" started-at="2019-01-02T07:22:39Z" finished-at="2019-01-02T07:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyErrorWhenRegisteringWithSameEmailAddress_Register_102 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="1077" started-at="2019-01-02T07:22:51Z" finished-at="2019-01-02T07:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="13443" started-at="2019-01-02T07:22:52Z" finished-at="2019-01-02T07:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyUserIsAbleToRegisterSuccessfully_Register_103()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyUserIsAbleToRegisterSuccessfully_Register_103" duration-ms="14321" started-at="2019-01-02T07:23:05Z" finished-at="2019-01-02T07:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyUserIsAbleToRegisterSuccessfully_Register_103 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="1631" started-at="2019-01-02T07:23:20Z" finished-at="2019-01-02T07:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="13641" started-at="2019-01-02T07:23:21Z" finished-at="2019-01-02T07:23:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyUserIsAbleToPlaceOrderSuccessfully_E2E_101()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyUserIsAbleToPlaceOrderSuccessfully_E2E_101" duration-ms="40472" started-at="2019-01-02T07:23:35Z" finished-at="2019-01-02T07:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyUserIsAbleToPlaceOrderSuccessfully_E2E_101 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="913" started-at="2019-01-02T07:24:16Z" finished-at="2019-01-02T07:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="12212" started-at="2019-01-02T07:24:16Z" finished-at="2019-01-02T07:24:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyItemsAddedInCartIsDisplayedOnShoppingCartSummaryPage_CartSummary_101()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyItemsAddedInCartIsDisplayedOnShoppingCartSummaryPage_CartSummary_101" duration-ms="26992" started-at="2019-01-02T07:24:29Z" finished-at="2019-01-02T07:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyItemsAddedInCartIsDisplayedOnShoppingCartSummaryPage_CartSummary_101 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="1117" started-at="2019-01-02T07:24:56Z" finished-at="2019-01-02T07:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="startBrowser" is-config="true" duration-ms="11789" started-at="2019-01-02T07:24:57Z" finished-at="2019-01-02T07:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="s_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="s_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102" duration-ms="23556" started-at="2019-01-02T07:25:09Z" finished-at="2019-01-02T07:25:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s_VerifyUserIsAbleToRemoveItemsFromTheShoppingCartSummaryPage_CartSummary_102 -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.shopping.TestCases.FunctionalTestCases@77caeb3e]" name="endTest" is-config="true" duration-ms="847" started-at="2019-01-02T07:25:32Z" finished-at="2019-01-02T07:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.shopping.TestCases.FunctionalTestCases -->
+    </test> <!-- Register -->
+  </suite> <!-- SuiteRegister -->
+</testng-results>
