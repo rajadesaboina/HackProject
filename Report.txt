@@ -1,0 +1,148 @@
+[RemoteTestNG] detected TestNG version 6.14.2
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 31422
+Only local connections are allowed.
+Jan 02, 2019 12:48:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Verified CREATE AN ACCOUNT - Label
+Verified Create Account Email Address - Textbox
+Verified ALREADY REGISTERED ? - Label
+Verified Email Address - Textbox
+Verified Password - Textbox
+Verified Sign In - Button
+All The Fields Verified
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 32050
+Only local connections are allowed.
+Jan 02, 2019 12:48:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Following error message should be displayed:	There is 1 error -- Invalid email address.
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 49047
+Only local connections are allowed.
+Jan 02, 2019 12:49:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Following error message should be displayed: There is 1 error --- An email address required.
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 13815
+Only local connections are allowed.
+Jan 02, 2019 12:49:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Following error message should be displayed: -- There is 1 error -- Password is required.
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 19999
+Only local connections are allowed.
+Jan 02, 2019 12:50:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+User should be sign in successfully and navigated to My Accounts page.
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 34695
+Only local connections are allowed.
+Jan 02, 2019 12:50:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+User should be sign in successfully and navigated to My Accounts page.
+Click on My Personal Information link
+Do not enter Current Password
+Click on Save button.
+There are 1 errors
+You must register at least one phone number.
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 27789
+Only local connections are allowed.
+Jan 02, 2019 12:51:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+User should be sign in successfully and navigated to My Accounts page.
+Click on My Personal Information link
+Select Date From Drop down
+Select Months From Drop down
+Select Years From Drop down
+Do not enter Current Password
+Click on Save button.
+There are 1 errors
+You must register at least one phone number.
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 5641
+Only local connections are allowed.
+Jan 02, 2019 12:51:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Verified CREATE AN ACCOUNT - Label
+There are 8 errors
+You must register at least one phone number.
+lastname is required.
+firstname is required.
+passwd is required.
+address1 is required.
+city is required.
+The Zip/Postal code you've entered is invalid. It must follow this format: 00000
+This country requires you to choose a State.
+Following error message should be displayed: There are 8 errors
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 46053
+Only local connections are allowed.
+Jan 02, 2019 12:52:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Verified CREATE AN ACCOUNT - Label
+Enter All ready Registered Email Id
+Click on Create an account Button
+Following error message should be displayed: An account using this email address has already been registered. Please enter a valid password or request a new one.
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 24567
+Only local connections are allowed.
+Jan 02, 2019 12:52:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Verified CREATE AN ACCOUNT - Label
+Enter New Email ID
+Click on Create an account Button
+Assert Register Home Page
+Click on Mr Radio Button
+Enter First name
+Enter Last name
+Enter Password
+Enter Address1
+Enter City
+Enter postalTextField
+Enter Mobile phone Field
+Click on Register Button
+User should be registered successfully and navigated to My Accounts page.
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 35209
+Only local connections are allowed.
+Jan 02, 2019 12:53:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+User should be sign in successfully and navigated to My Accounts page.
+Click on Women Section
+Click on Product user want add to cart
+Click on Product user want add to cart
+Click on Continue shopping Button
+Click on Women Section
+Click on Product user want add to cart2
+Click on Product user want add to cart2
+Click on Proceed To Checkout Button in PopUp Window
+Click on Proceed To Checkout Button in Shopping-cart summary Page
+Click on Proceed To Checkout Button in Addresses Page
+Click on Terms of service Check Box
+Click on Proceed To Checkout Button in Shipping Page
+Click on Pay by bank wire Link
+Click on I Confirm My Order Button
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 3518
+Only local connections are allowed.
+Jan 02, 2019 12:54:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+User should be sign in successfully and navigated to My Accounts page.
+Click on Women Section
+Click on Product user want add to cart
+Click on Product user want add to cart
+Click on Continue shopping Button
+Click on Women Section
+Click on Product user want add to cart2
+Click on Product user want add to cart2
+Click on Proceed To Checkout Button in PopUp Window
+1st Items added in the cart should be displayed in the Shopping Cart Summary Page.
+2nd Items added in the cart should be displayed in the Shopping Cart Summary Page.
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 36972
+Only local connections are allowed.
+Jan 02, 2019 12:54:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+User should be sign in successfully and navigated to My Accounts page.
+Click on Women Section
+Click on Product user want add to cart3
+Click on Product user want add to cart
+Click on Proceed To Checkout Button in PopUp Window
+1st Items added in the cart should be displayed in the Shopping Cart Summary Page.
+Click on Delete button.
+Item should get successfully removed from the Shopping Cart Summary page.
+
+===============================================
+SuiteRegister
+Total tests run: 13, Failures: 0, Skips: 0
+===============================================
+
