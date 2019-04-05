@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class TestConfig 
 {
-	String driverPath = "../sampleHackProj/src/main/java/externalDrivers/chromedriver.exe";
+	String driverPath = "D:/HackProject/externalDrivers/chromedriver.exe";
 	public static WebDriver driver;
 
 
