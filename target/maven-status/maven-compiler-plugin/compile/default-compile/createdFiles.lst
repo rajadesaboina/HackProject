@@ -1,9 +1,0 @@
-com\shopping\PageObjects\AddToCart.class
-com\shopping\PageObjects\RegistrationModule.class
-sampleHackProj\FunctionalTest.class
-com\shopping\Config\TestConfig.class
-com\shopping\TestCases\FunctionalTestCases.class
-com\shopping\Utils\ReportsAndScreenshots.class
-sampleHackProj\testConfig.class
-com\shopping\PageObjects\LoginModule.class
-com\shopping\PageObjects\MyPersonalInformationModule.class
